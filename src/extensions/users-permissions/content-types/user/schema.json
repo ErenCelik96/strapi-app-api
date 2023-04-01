@@ -68,6 +68,9 @@
       "relation": "oneToMany",
       "target": "api::post.post",
       "mappedBy": "users_permissions_user"
+    },
+    "imageUri": {
+      "type": "string"
     }
   }
 }
